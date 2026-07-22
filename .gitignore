@@ -1,0 +1,30 @@
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# CatBoost local training logs
+catboost_info/
+
+# Local backup of the notebook (keep on disk, do not push)
+*Backup*.ipynb
+*backup*.ipynb
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Helper scripts used only for patching (if left around)
+_list_cells.py
+_patch_notebook.py
+_cleanup_outputs.py
+_cells_map.txt
+
+# Large regenerated outputs can be ignored if you prefer; keep folder via .gitkeep
+# Uncomment the next line if you do not want prediction CSVs on GitHub:
+# output/*.csv
