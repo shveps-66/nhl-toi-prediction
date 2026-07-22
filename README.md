@@ -34,7 +34,7 @@ Stats were collected from:
 - [NHL.com Stats](https://www.nhl.com/stats)
 - [HockeyStats](https://hockeystats.com/stats)
 
-Not every collected metric enters the final model. Cleaning, appending seasons, and early prep were done in **Power Query**. Player seasons were filtered to a minimum of **30 games** and **100 total TOI minutes** per season (also in Power Query) to reduce noise from tiny samples. This repository focuses on modeling and interpretation in the notebook.
+Not every collected metric enters the final model. Cleaning, appending tables, and early prep were done in **Power Query**. Player seasons were filtered to a minimum of **30 games** and **100 total TOI minutes** per season (also in Power Query) to reduce noise from tiny samples. This repository focuses on modeling and interpretation in the notebook.
 
 | File | Seasons | Role |
 |------|---------|------|
