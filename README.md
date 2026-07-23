@@ -24,6 +24,7 @@ Those gaps are a starting point for deeper scouting (coach usage, PP/PK, injury,
 │   ├── All Stats (Seasons 21-25).csv
 │   ├── All Stats (Seasons 25-26).csv
 │   └── For TOI-GP lag metric (Season 20-21) Github.csv
+├── GLOSSARY.md                        # metric definitions
 ├── requirements.txt
 └── README.md
 ```
@@ -33,6 +34,8 @@ Those gaps are a starting point for deeper scouting (coach usage, PP/PK, injury,
 Stats were collected from:
 - [NHL.com Stats](https://www.nhl.com/stats)
 - [HockeyStats](https://hockeystats.com/stats)
+
+Column definitions for raw stats, engineered features, and model outputs are in **[GLOSSARY.md](GLOSSARY.md)**.
 
 Not every collected metric enters the final model. Cleaning, appending tables, and early prep were done in **Power Query**. Player seasons were filtered to a minimum of **30 games** and **100 total TOI minutes** per season (also in Power Query) to reduce noise from tiny samples. This repository focuses on modeling and interpretation in the notebook.
 
